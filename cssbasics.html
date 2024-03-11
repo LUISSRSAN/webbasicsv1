@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+    <ul>
+    <a href="index.html">HOME</a>
+     <a href="htmlbasics.html"> HTML </a>
+    <a href="cssbasics.html">CSS  </a>
+
+</ul>
+</nav><img src="https://www.thefactsite.com/wp-content/uploads/2022/07/color-black-facts-740x370.webp"/><br>
+
+<li><a href="#basics">Basics</a></li>
+<li><a href ="#float">Float Layout</a></li>
+    <li><a href="#flexbox">Flexbox</a></li>
+    <li><a href="#cssgrid">CSS Grid</a></li>
+
+</ul>
+
+<div id="basics">
+  <h2> Inline- Internal ,External  Styling </h2> 
+
+<h2> Styling Text</h2>
+<p>
+    <ul>
+
+
+        <li>font-size</li> <br>
+        <li>font-family</li><br>
+        <li>text-transform</li><br>
+        <li>font-style
+        </li><br>
+        <li>text-align</li><br>
+        <li>line-height</li><br>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+</p>
+<h2>Combining Selectors** </h2>
+
+<p>
+
+
+    <ul>
+
+
+  <li> `h1,h2,h3,h4,p,li{`
+
+    `}`
+     
+
+
+       </li><br>
+
+    <li>
+    `footer p {`
+
+     `font-size:16px;`
+     
+     `}`
+    </li><br>
+
+    
+        <li>
+        `header p {`
+
+         `font-style:italic;`
+                
+            `}`
+        </li><br>
+    </ul>
+
+
+
+
+</p>
+
+<h2>Class and ID Selectors</h2>
+
+<p>
+    <ul>
+        <li>id <p>     #author{`
+            
+            `font-style:italic;`
+            
+            `font-size:18px;`
+            
+            `}</p></li><br>
+        <li>classes <p>
+            .class-1{
+
+                color:
+                background-color:
+            }
+        </p></li><br>
+        <li>
+       `</li>
+    </ul>
+
+
+
+
+</p>
+
+<h2>Colors</h2>
+<ul>
+
+    <li>RGB MODEL<p>
+        (0,0,0)<br>
+        (255,0,0)<br>
+        RGB ,GREEN ,BLUE <br>
+
+        0—>255<br>
+        RGB (0,255,255,0.3) w transparent
+    </p> </li>
+    <li>
+        HEXADECIMAL 
+<p>#00FFFF</p>
+
+
+    </li>
+</ul>
+
+
+
+
+
+
+<h2>Pseudo Classes
+    <p>-using pseudo class</p>
+</h2>
+
+<ul>
+
+<li>li:first child</li><br>
+<li>li:last child
+</li><br>
+<li>li:nth-child(2)</li><br>
+<li>
+    article : last-child </li><br>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<h2>Styling Hyperlinks 
+    <p>-using pseudo class </p>
+</h2>
+
+<ul>
+
+<li>
+
+    a:link {
+
+        `color:`;
+        
+        `text-decoration:none;`
+        
+        }
+</li><br>
+<li>
+    a:visited{
+
+        `color`;
+        
+        }
+
+</li><br>
+
+<li>
+
+a:hover{
+
+    `color`;
+    
+    `font-weight`;
+    
+    `text-decoration`;
+    
+    }
+</li>
+</ul>
+
+
+
+
+</p>
+<h2>CSS Theory <p>
+    Conflicting Selectors and declarations
+</p></h2>
+
+   
+
+<ul>
+<li><strong>Highest priority</strong>   !important</li><br>
+<li> inline</li><br>
+<li>ID Selector</li><br>
+<li>Class</li><br>
+<li>
+Element selector
+</li><br>
+
+<li> <strong>Lowest priority </strong>universal * </li><br>
+
+
+
+</ul>
+   
+
+                      
+
+                 
+
+          
+
+     
+<h2>Inheritance </h2>
+
+<p> -Parent element </p>
+
+
+
+
+
+</p>
+<h2>The CSS Box Model</h2>
+
+
+<ul>
+
+
+    <li>-Content Text ,Images ,etc….</li><br>
+    <li>-Border</li><br>
+    <li>-padding</li><br>
+    <li>-margin</li><br>
+    <li>-fill area</li><br>
+    <li>-background-color </li><br>
+    <li>
+
+        **Margin and Padding** 
+        
+        Margin :
+        
+        Padding :top/bottom, left/right</li>
+</ul>
+
+<h2>Adding Dimensions</h2>
+<ul>
+
+    <li>height</li><br>
+    <li>width</li>
+</ul>
+
+
+
+</p>
+<h2>Centering Page
+    <p>-using a div </p>
+</h2>
+<p>
+
+<div class=”container”>`
+
+`</div>`
+<li>
+.container{
+
+width:700px;
+
+margin: 0 auto;
+}
+</li>
+<h2>Types of Boxes </h2>
+
+<ul>
+
+    <li>Default positioning 
+<p> position:relative</p>
+    </li><br>
+    <li>absolute positioning
+
+        <p>position:absolute</p></li>
+    <li></li>
+</ul>
+
+
+
+
+<h2>Pseudo Elements </h2>
+<ul>
+
+<li>`h1:firstletter`</li><br>
+<li>`h3+p:first-line`</li><br>
+<li>`h2:before`</li><br>
+<li>`h2:after`</li><br>
+
+
+
+</ul>
+
+
+
+
+
+
+
+</p>
+
+</div>
+<div id="float">
+<h1>FLOAT LAYOUT </h1>
+    <h2>Visual Structure of Content </h2>
+    
+
+    -Page layout 
+    
+    -Component Layout 
+    <ol>
+
+
+        <li>-using float layouts</li>
+        <li>-using flexbox</li>
+        <li>-using css grid </li>
+    </ol>
+    
+    
+    
+    
+    <h2> USING FLOATS </h2>
+    
+    
+   <ul>
+<li>
+    -float :left</li><br>
+<li>
+    -float:right
+</li>
+
+   </ul>
+    
+    
+    
+
+    <h2> CLEARING FLOATS </h2>
+   
+    <ul>
+        <li> -clear:left</li><br>
+        <li>clear:both</li>
+    </ul>
+   
+    
+    
+    
+    <h2>BUILDING FLOAT LAYOUTS IS OUTDATED</h2>
+
+    
+    <h2>SIMPLE FLOAT LAYOUT</h2>
+
+    <ul>
+
+<li>-article </li><br>
+<li>-aside</li><br>
+<li>-footer</li>
+<p>
+    article {width900px}<br>
+    
+    aside {width 300px}<br>
+    
+    article {float :left}<br>
+    
+    aside {float :right}<br>
+    
+    footer {clear :both}<br>
+
+</p>
+
+    </ul>
+    
+    
+    
+
+    
+    
+    
+   <h2> BOX SIZING / BORDER BOX </h2> 
+    <p> box-sizing:border-box</p>
+   
+    
+   
+</div>
+<div id="flexbox">
+
+
+<h2>Flexbox<p> Flexbox : A set of related CSS properties for building 1-dimensional layouts</p></h2>
+   
+  
+<ul>
+
+
+    <li>.container 
+    
+        display:flex; <br>
+        
+        align-items :center ;<br>
+        
+        ---:flex-start <br>
+        
+        ---:flex-end <br>
+        
+        ---:stretch <br>
+        
+        justify-content:center<br>
+        
+        ---:space-between</li>
+</ul>
+
+
+    
+  <h2>-Flex container</h2>
+    
+   <ul>
+<li>**gap** :length</li><br>
+<li>**justify-content**: flex-start , flex-end; center; space-between, space-around, space-evenly</li><br>
+<li>**align-items:** stretch , flex-start, flex-end, center, baseline</li><br>
+<li>**flex-direction**: row, row-reverse, column, column-reverse
+</li><br>
+<li>**flex-wrap** : nowrap , wrap , wrap-reverse</li><br>
+<li>**align-content** : stretch, flex-start, flex-end, center, space-between, space-around</li><br>
+
+
+
+   </ul>
+    <h2>-Flex items </h2>
+    
+    <ul>
+
+        <li> **align-self** : auto , stretch , flex-start , flex-end ,center ,baseline</li><br>
+        <li>  **flex-grow** :</li><br>
+        <li>**flex-shrink**</li><br>
+        <li>  **flex-basis**</li><br>
+        <li>**flex**</li><br>
+    </ul>
+
+</div>
+<div id="cssgrid">
+
+    <h2>CSS Grid <p>  Css grid - a set of css properties for building 2 dimensional layouts </p></h2>
+    
+    <ul>
+
+<li>    display:grid </li><br>
+<p>**DEFINE TEMPLATE LAYOUT** </p>
+<li> `grid-template-columns : 250px 150px;`</li><br>
+<li>
+    `grid-template-rows : 300px 200px;`</li><br>
+
+<li> `gap : 30px;` </li><br>
+<li>`column-gap :20px`</li><br>
+<li>`row-gap : 60px;`</li><br>
+    </ul>
+
+
+    
+    
+   
+    
+    
+   
+    
+    
+    
+    
+    
+  
+    
+    -Grid container
+    
+    -grid items 
+    
+    -gutters 
+    
+    -grid cell 
+    
+    -grid lines 
+    
+    **GRID CONTAINER**
+    
+    1)grid -templates-rows, grid-template-columns
+    
+    2)row-gap , column-gap
+    
+    3)justify-items, align-items
+    
+    4)justify-content, align-content
+    
+    **GRID Items** 
+    
+    1 ) grid-column, grid-row
+    
+    2)justify-self, align-self
+    
+    **Sizing Grid** 
+    
+    1fr 
+    
+    -using 1fr 
+    
+    -using repeat 
+    
+    -using height
+    
+    grid-template-columns:repeat(4,1fr)
+    
+    **Placing & Spanning grid items** 
+    
+    -used on grid items 
+    
+    `grid-column :2/3`
+    
+    `grid-row:1/2`
+    
+    `el-2{`
+    
+    `grid-column :1/4`
+    
+    `grid-row:2`
+    
+    `grid-column:1span3`
+
+
+
+</div>
+</body>
+</html>
